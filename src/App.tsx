@@ -8,7 +8,7 @@ import "./app/styles/fonts.css";
 
 export const App = () => {
   return (
-    <BrowserRouter basename="/house-website/">
+    <BrowserRouter basename="/house-website-frontend/">
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>
