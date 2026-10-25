@@ -1,13 +1,10 @@
 import { Link } from "react-router";
-import { useState } from "react";
 
 import birdHero from "/assets/widgets/home/hero/bird.png";
 
 import "../../app/styles/pages/home/widgets/hero.css";
 
 export const Hero = () => {
-  const [isActive, setIsActive] = useState(false);
-
   return (
     <section className="hero">
       <section className="hero-image">

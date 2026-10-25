@@ -2,7 +2,7 @@
   "name": "house-website-frontend",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://x2m3ch.github.io/house-website",
+  "homepage": "https://x2m3ch.github.io/house-website-frontend",
   "type": "module",
   "scripts": {
     "dev": "vite",
