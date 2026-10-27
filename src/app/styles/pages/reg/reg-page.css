@@ -1,0 +1,8 @@
+.reg-page {
+  gap: 60px;
+  display: flex;
+  justify-content: center;
+
+  padding-top: 90px;
+  padding-bottom: 20px;
+}

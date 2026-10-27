@@ -1,0 +1,104 @@
+.reg-hero {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reg-hero > h2 {
+  font-size: 35px;
+}
+
+.reg-hero > p {
+  width: 400px;
+  text-align: center;
+}
+
+.reg-form {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #e1ede6;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.reg-form-inputs {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reg-form > button {
+  background-color: #376b44;
+  padding: 15px;
+
+  color: white;
+}
+
+.reg-form-input {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reg-form-input > section {
+  gap: 15px;
+  display: flex;
+
+  background-color: white;
+  border: 1px solid #598d66;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+.reg-form-input > section > img {
+  width: 30px;
+}
+
+.reg-form-input > section > input {
+  width: 300px;
+}
+
+.reg-form-buttons {
+  gap: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.reg-form-buttons > button {
+  background-color: #376b44;
+  padding: 15px;
+  width: 100%;
+
+  color: white;
+}
+
+.reg-form-buttons > article {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+}
+
+.reg-form-buttons > article > div {
+  background-color: rgb(153, 151, 151);
+  height: 1px;
+  width: 100%;
+}
+
+.reg-form-buttons > article > p {
+  padding: 10px;
+}
+
+.reg-form-buttons > section {
+  gap: 7px;
+  display: flex;
+}
+
+.reg-form-buttons > section > a {
+  color: #376b44;
+}

@@ -22,7 +22,7 @@ export const Header = () => {
 
   return (
     <header>
-      <Link to="" className="logo">
+      <Link to="/" className="logo">
         <img src={logo} alt="" />
         <h1 className="icon">Ink. House</h1>
       </Link>
@@ -64,7 +64,7 @@ export const Header = () => {
           <Link className="login" to="">
             Вход
           </Link>
-          <Link className="reg" to="">
+          <Link className="reg" to="/reg">
             Зарегистрироваться
           </Link>
         </section>
